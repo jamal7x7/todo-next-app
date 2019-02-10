@@ -1,0 +1,19 @@
+{
+  "name": "next-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "Jamal <jamal7x7@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^7.0.3",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  }
+}
