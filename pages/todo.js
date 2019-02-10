@@ -1,5 +1,5 @@
-import Link from 'next/link'
 import { useReducer, useRef } from 'react'
+import Layout from '../components/Layout'
 
 const reducer = (state, action) => {
 	switch (action.type) {
@@ -40,10 +40,9 @@ export default () => {
 
 	return (
 		<div>
-			<div>Welcome to Home.js!</div>
-			<Link href='index'>
-				<a>Index Page</a>
-			</Link>
+			<Layout />
+			<div>TODO APP</div>
+
 			<form onSubmit={handleForm}>
 				<input type='text' name='text' ref={MyRef} />
 			</form>
